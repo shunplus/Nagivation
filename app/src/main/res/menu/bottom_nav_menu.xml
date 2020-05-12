@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_state_home_menu_navi"
+        android:title="主页" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/icon_state_dashboard_menu_navi"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/icon_state_notification_menu_navi"
+        android:title="@string/title_notifications" />
+
+</menu>
