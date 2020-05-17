@@ -10,6 +10,7 @@ import com.shunplus.navigation.MsgEvent;
 import com.shunplus.navigation.R;
 import com.shunplus.navigation.base.BaseActivity;
 import com.shunplus.navigation.utils.LiveDataBusX;
+import com.shunplus.navigation.utils.PLog;
 
 /**
  * @author xushun on  2020/5/10 15:25.
@@ -21,6 +22,12 @@ public class TestActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        PLog.d("TestActivity onStop");
     }
 
     @Override
@@ -39,5 +46,26 @@ public class TestActivity extends BaseActivity {
                 Toast.makeText(TestActivity.this, msgEvent.getPosition()+"", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        PLog.d("TestActivity onStart");
+    }
+
+    @Override
+    public void initParam() {
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
+    public void initViewObservable() {
+
     }
 }

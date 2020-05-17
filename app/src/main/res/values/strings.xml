@@ -3,4 +3,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="service_error">服务器出错啦~~~</string>
+    <string name="not_found">请求的资源不存在~~~</string>
+    <string name="timeout">请求超时~~~</string>
+    <string name="unknown_error">未知错误~~~</string>
+    <string name="network_error">网络有问题~~~</string>
+    <string name="parse_error">数据解析错误~~~</string>
+    <string name="server_error">服务端数据错误~~~</string>
 </resources>

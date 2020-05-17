@@ -8,14 +8,15 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
+
+import com.trello.rxlifecycle2.components.support.RxFragment;
 
 /**
  * @author xushun on  2020/5/12 09:34.
  * Email：shunplus@163.com
  * Des：
  */
-public abstract class BaseFragment extends Fragment {
+public abstract class BaseFragment extends RxFragment implements BaseView {
 
     protected BaseActivity mActivity;
     private View rootView;

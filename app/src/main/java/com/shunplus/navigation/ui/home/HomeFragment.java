@@ -69,4 +69,19 @@ public class HomeFragment extends BaseToolBarFragment {
         super.onResume();
 //        EventBus.getDefault().post(new MsgEvent(0));
     }
+
+    @Override
+    public void initParam() {
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
+    public void initViewObservable() {
+
+    }
 }

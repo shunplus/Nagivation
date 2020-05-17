@@ -8,9 +8,17 @@
     <fragment
         android:id="@+id/nav_test_fragment"
         android:name="com.shunplus.navigation.ui.test.TestFragment"
-        android:label="@string/title_home"
         tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_test_mmvvm"
+            app:destination="@+id/nav_test_mvvm_fragment" />
     </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_test_mvvm_fragment"
+        android:name="com.shunplus.navigation.ui.test.TestMVVMFragment"
+        tools:layout="@layout/mvvm_test" />
 
 
 </navigation>

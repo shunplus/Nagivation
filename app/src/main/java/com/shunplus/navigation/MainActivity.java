@@ -32,4 +32,18 @@ public class MainActivity extends BaseActivity {
         NavigationUI.setupWithNavController(navView, navController);
     }
 
+    @Override
+    public void initParam() {
+
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
+    public void initViewObservable() {
+
+    }
 }

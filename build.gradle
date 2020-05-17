@@ -3,8 +3,17 @@
 buildscript {
     
     repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://jitpack.io' }
         google()
         jcenter()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+
+        maven { url 'http://developer.huawei.com/repo/' }
         
     }
     dependencies {
@@ -18,8 +27,17 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://jitpack.io' }
         google()
         jcenter()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+
+        maven { url 'http://developer.huawei.com/repo/' }
         
     }
 }

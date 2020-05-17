@@ -50,7 +50,6 @@ public class DashboardFragment extends Fragment {
                                 LiveDataBusX.get().with("data", MsgEvent.class).postValue(new MsgEvent(2));
                             }
 
-
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
